@@ -5,10 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import { useStaticQuery, graphql } from 'gatsby'
 
 export default function SEO({ lang, meta, title, slug }) {
   const { site } = useStaticQuery(
@@ -22,7 +22,7 @@ export default function SEO({ lang, meta, title, slug }) {
           }
         }
       }
-    `
+    `,
   )
 
   return (
@@ -34,54 +34,54 @@ export default function SEO({ lang, meta, title, slug }) {
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
-          property: "og:url",
-          content: "https://hysds-web.github.io",
+          property: 'og:url',
+          content: 'https://hysds-web.github.io',
         },
         {
-          property: "og:title",
+          property: 'og:title',
           content: title,
         },
         {
-          property: "og:site_name",
-          content: "HySDS Landing Page",
+          property: 'og:site_name',
+          content: 'HySDS Landing Page',
         },
         {
-          property: "og:type",
-          content: "website",
+          property: 'og:type',
+          content: 'website',
         },
         {
-          name: "twitter:card",
-          content: "summary",
+          name: 'twitter:card',
+          content: 'summary',
         },
         {
-          name: "twitter:creator",
+          name: 'twitter:creator',
           content: site.siteMetadata.author,
         },
         {
-          name: "twitter:title",
+          name: 'twitter:title',
           content: title,
         },
         {
-          property: "twitter:domain",
-          content: "https://hysds-web.github.io",
+          property: 'twitter:domain',
+          content: 'https://hysds-web.github.io',
         },
         {
-          property: "og:image",
-          content: "",
+          property: 'og:image',
+          content: '',
         },
         {
-          property: "twitter:site",
-          content: "@gethysds",
+          property: 'twitter:site',
+          content: '@gethysds',
         },
       ].concat(meta)}
-    ></Helmet>
+    />
   )
 }
 
 SEO.defaultProps = {
-  lang: "en",
+  lang: 'en',
   meta: [],
-  description: "",
+  description: '',
 }
 
 SEO.propTypes = {

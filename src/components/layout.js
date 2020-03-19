@@ -1,7 +1,7 @@
-import React from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
-import { Helmet } from "react-helmet"
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import Header from './header'
+import Footer from './footer'
 
 export default ({ children }) => (
   <div>

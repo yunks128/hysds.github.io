@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `HySDS`,
     description: `The Hybrid Cloud Science Data System`,
-    author: `Sehoon Park, Safiyah Lakhany`
+    author: `Sehoon Park, Safiyah Lakhany`,
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -18,9 +18,9 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${__dirname}/src`
-      }
+        path: `${__dirname}/src`,
+      },
     },
-    `gatsby-plugin-react-helmet`
-  ]
+    `gatsby-plugin-react-helmet`,
+  ],
 }

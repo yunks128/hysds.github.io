@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import logo from '../images/hysds-logo.png'
 
 export default () => (
-  <header>
+  // <header>
 
     <nav class="navbar">
       <div id="logo">
@@ -14,13 +14,13 @@ export default () => (
 
 
       <ul class="nav justify-content-end">
-        <li class="nav-item"> <Link to="/about/">About</Link> </li>
-        <li class="nav-item"> <Link to="/features/">Features</Link> </li>
-        <li class="nav-item"> <Link to="/contribute/">Contribute</Link> </li>
-        <li class="nav-item"> <Link to="/docs/hysds/hysds-overview/">Docs</Link> </li>
+        <li class="nav-item"> <Link to="/about/" id="nav-item">ABOUT</Link> </li>
+        <li class="nav-item"> <Link to="/features/" id="nav-item">FEATURES</Link> </li>
+        <li class="nav-item"> <Link to="/contribute/" id="nav-item">CONTRIBUTE</Link> </li>
+        <li class="nav-item"> <Link to="/docs/hysds/hysds-overview/" id="nav-item">DOCS</Link> </li>
       </ul>
 
     </nav>
 
-  </header>
+  // </header>
 )

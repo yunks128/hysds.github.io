@@ -4320,6 +4320,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
+  background-color: #2E2E2E;
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -4330,6 +4331,8 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  /* padding-left: 0;
+  padding-right: 0; */
 }
 
 .navbar .container,
@@ -10236,10 +10239,44 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* custom styling */
 .header-logo{
-  padding: 0;
+  padding: 5px 35px;
   margin: 0;
   display: block;
   float: left;
-  height: 100px;
+  height: 85px;
 
+}
+
+#nav-item {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#nav-item:hover{
+  color: #95D6F0;
+
+}
+
+.nav-item{
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.navbar{
+  display: block;
+  height: 85px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+nav{
+  display: block;
+  height: 85px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }

@@ -1,7 +1,7 @@
-import React from "react"
-import Layout from "../components/layout"
+import React from 'react'
+import Layout from '../components/layout'
 
-export default ({ data }) => (
+export default () => (
   <Layout>
     <h2>Contribute</h2>
   </Layout>

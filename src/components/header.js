@@ -4,7 +4,7 @@ import logo from '../images/hysds-logo.png'
 
 export default () => (
 
-  // <header>
+  
     <nav class="navbar">
 
       <div id="logo">
@@ -21,7 +21,7 @@ export default () => (
     </nav>
 
 
-  // </header>
+  
 
  
 )

@@ -5,13 +5,14 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-html{
+html {
   font-family: 'Montserrat', sans-serif;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 nav,
@@ -21,10 +22,6 @@ ul {
 
 header {
   padding-bottom: 30px;
-}
-
-.nav-item {
-  padding: 0 25px;
 }
 
 ul {
@@ -40,4 +37,51 @@ footer,
 main {
   width: 80%;
   margin: auto;
+}
+
+.header-logo {
+  padding: 5px 35px;
+  margin: 0;
+  display: block;
+  float: left;
+  height: 85px;
+}
+
+#nav-item {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#nav-item:hover {
+  color: #95d6f0;
+  transition: color 500ms;
+}
+
+.nav-item {
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  padding: 0 25px;
+}
+
+.navbar {
+  display: block;
+  height: 85px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+nav {
+  display: block;
+  height: 85px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+button:focus {
+  outline: 0;
 }

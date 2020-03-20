@@ -10254,6 +10254,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 #nav-item:hover{
   color: #95D6F0;
+  transition: color 500ms;
 
 }
 
@@ -10280,3 +10281,5 @@ nav{
   padding: 0px;
   width: 100%;
 }
+
+button:focus {outline:0;}

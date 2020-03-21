@@ -1,11 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
+
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import projects from '../images/projects-using-hysds.png'
-import placeholder from '../images/placeholder.png'
-import tosca from '../images/tosca.png'
-import metrics from '../images/metrics.png'
+import Image from '../components/image'
 
 export default ({ data }) => (
   <Layout>
@@ -49,7 +47,7 @@ export default ({ data }) => (
 
       <div className="card-deck">
         <div className="card">
-          <img fluid={placeholder} className="card-img-top" alt="" />
+          <Image name="placeholder" className="card-img-top" alt="" />
           <div className="card-body">
             <h5 className="card-title">Feature</h5>
             <p className="card-text">
@@ -60,7 +58,7 @@ export default ({ data }) => (
           </div>
         </div>
         <div className="card">
-          <img fluid={placeholder} className="card-img-top" alt="" />
+          <Image name="placeholder" className="card-img-top" alt="" />
           <div className="card-body">
             <h5 className="card-title">Feature</h5>
             <p className="card-text">
@@ -71,7 +69,7 @@ export default ({ data }) => (
           </div>
         </div>
         <div className="card">
-          <img fluid={placeholder} className="card-img-top" alt="" />
+          <Image name="placeholder" className="card-img-top" alt="" />
           <div className="card-body">
             <h5 className="card-title">Feature</h5>
             <p className="card-text">
@@ -90,7 +88,7 @@ export default ({ data }) => (
       <section className="card mb-2">
         <div className="row no-gutters">
           <div className="col-sm-6">
-            <img src={tosca} className="card-img" alt="..." />
+            <Image name="tosca" className="card-img-top" alt="" />
           </div>
           <div className="col-sm-6">
             <div className="card-body">
@@ -119,7 +117,7 @@ export default ({ data }) => (
             </div>
           </div>
           <div className="col-sm-6">
-            <img src={metrics} className="card-img" alt="..." />
+            <Image name="metrics" className="card-img-top" alt="" />
           </div>
         </div>
       </section>
@@ -129,7 +127,7 @@ export default ({ data }) => (
       <section className="card mb-2">
         <div className="row no-gutters">
           <div className="col-sm-6">
-            <img src={projects} className="card-img" alt="..." />
+            <Image name="projects" className="card-img-top" alt="" />
           </div>
           <div className="col-sm-6">
             <div className="card-body">

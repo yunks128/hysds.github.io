@@ -1,5 +1,5 @@
 ---
-title: 'SDS Watch Metrics'
+title: 'SDS Watch'
 order: 10
 page_id: 'sds_watch'
 warning: false

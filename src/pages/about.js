@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 export default ({ data }) => (
   <Layout>
     <h2>
-      About
+      About{` `}
       {data.site.siteMetadata.title}
     </h2>
     <p>{data.site.siteMetadata.description}</p>

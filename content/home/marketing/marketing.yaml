@@ -1,0 +1,20 @@
+primary:
+  - title: Facet Search
+    image: tosca
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a
+    link: /docs/components/tosca/
+  - title: Job Metrics
+    image: metrics
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+    link: /docs/components/metrics/
+
+featured:
+  - title: Feature
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+    link: /docs/
+  - title: Feature
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+    link: /docs/
+  - title: Feature
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+    link: /docs/

@@ -1,0 +1,36 @@
+- title: Features
+  items:
+    - title: Cool stuff
+      to: '#'
+    - title: Random feature
+      to: '#'
+    - title: Team feature
+      to: '#'
+    - title: Stuff for developer
+      to: '#'
+    - title: Another one
+      to: '#'
+    - title: Last time
+      to: '#'
+
+- title: Resources
+  items:
+    - title: Resource
+      to: '#'
+    - title: Resource name
+      to: '#'
+    - title: Another resource
+      to: '#'
+    - title: Final resource
+      to: '#'
+
+- title: About
+  items:
+    - title: Team
+      to: '#'
+    - title: Locations
+      to: '#'
+    - title: Privacy
+      to: '#'
+    - title: Terms
+      to: '#'

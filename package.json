@@ -18,7 +18,7 @@
     "lint:fix": "yarn lint --fix",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "serve": "gatsby serve",
-    "clean": "rimraf public",
+    "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {

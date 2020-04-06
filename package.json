@@ -16,7 +16,7 @@
     "start": "gatsby develop",
     "lint": "eslint --ignore-path .gitignore . --cache --ext js,jsx",
     "lint:fix": "yarn lint --fix",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test": "yarn lint && yarn lint:fix",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public -b master"

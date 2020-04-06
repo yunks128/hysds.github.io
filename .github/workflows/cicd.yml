@@ -3,11 +3,9 @@ name: CI/CD
 on:
   push:
     branches: [develop]
-  pull_request:
-    branches: [develop]
-
+    
 jobs:
-  lint:
+  cicd:
     runs-on: ubuntu-latest
     strategy:
       matrix:

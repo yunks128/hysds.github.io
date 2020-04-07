@@ -8,7 +8,7 @@ import Featured from '../components/home/featured'
 import Primary from '../components/home/primary'
 import Secondary from '../components/home/secondary'
 
-import marketing from '../../content/home/marketing/marketing.yaml'
+import marketing from '../../content/home/marketing.yaml'
 
 export default ({ data }) => (
   <Layout>

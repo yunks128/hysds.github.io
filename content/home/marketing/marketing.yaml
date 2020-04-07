@@ -1,3 +1,6 @@
+banner:
+  image: satellite
+
 primary:
   - title: Faceted Search
     image: tosca
@@ -12,17 +15,17 @@ primary:
 featured:
   - title: Faceted search
     description: HySDS takes a unique faceted search approach. Everything from jobs to data products can be faceted. The ability to facet upon areas in a map allows for fast data processing of highly monitored areas.
-    image: placeholder
+    image: database
     link: /docs/
 
-  - title: Feature 2
-    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
-    image: placeholder
+  - title: Integrate Cloud Computing and On-Premise Machines
+    description: HySDS utilizes cloud services such as AWS to run heavy jobs such as satellite data processing. Many of these jobs benefit from being run in parallel, so utilizing AWS allows them to be completed in a timely manner. However, light-weight jobs such as revoking another job, don’t benefit from utilizing cloud services. These light weight jobs, among other jobs,  are performed by NASA’s on-site super computers. HySDS allows for seamless integration, utilizing cloud services when beneficial and on-site workers when it’s not.
+    image: cloud_comp
     link: /docs/
 
-  - title: Feature 3
-    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
-    image: placeholder
+  - title: Trigger rules for custom processing
+    description: Trigger rules enable automated custom processing. They can simply be added through the Mozart, The Resource Manager. Trigger rules can be used to do anything from emailing an operator when a job has finished running or retry a failed job.
+    image: rules
     link: /docs/
 
 secondary:

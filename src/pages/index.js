@@ -7,11 +7,12 @@ import Intro from '../components/home/intro'
 import Featured from '../components/home/featured'
 import Primary from '../components/home/primary'
 import Secondary from '../components/home/secondary'
-
-import marketing from '../../content/home/marketing.yaml'
+import Banner from '../components/banner'
+import marketing from '../../content/home/marketing/marketing.yaml'
 
 export default ({ data }) => (
   <Layout>
+    <Banner />
     <SEO />
     <Intro data={data.hysds} />
     <Featured data={marketing.featured} />

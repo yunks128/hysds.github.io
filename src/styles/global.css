@@ -7,6 +7,7 @@ body {
 nav,
 ul {
   display: block;
+  list-style: none;
 }
 
 header {
@@ -17,12 +18,12 @@ header {
   padding: 0 25px;
 }
 
-ul {
-  list-style: none;
-}
-
 a {
   color: black;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 header,
@@ -30,4 +31,36 @@ footer,
 main {
   width: 80%;
   margin: auto;
+}
+
+.accordion-section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-title {
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  text-align: left;
+}
+
+.accordion-icon {
+  margin-left: auto;
+  transition: transform 0.1s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.accordion-content {
+  overflow: hidden;
+  transition: max-height 0.1s ease;
 }

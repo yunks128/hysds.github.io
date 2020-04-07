@@ -1,8 +1,8 @@
 import React from 'react'
-import logo from '../images/satellite.jpg'
+import Image from './image.js'
 
 export default () => (
   <div class="satellite-banner">
-    <img src={logo} class="satellite-img" />
+    <Image name="satellite" className="" alt="" />
   </div>
 )

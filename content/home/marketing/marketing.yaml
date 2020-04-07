@@ -1,20 +1,63 @@
 primary:
-  - title: Facet Search
+  - title: Faceted Search
     image: tosca
     description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a
     link: /docs/components/tosca/
+
   - title: Job Metrics
     image: metrics
     description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
     link: /docs/components/metrics/
 
 featured:
-  - title: Feature
-    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+  - title: Faceted search
+    description: HySDS takes a unique faceted search approach. Everything from jobs to data products can be faceted. The ability to facet upon areas in a map allows for fast data processing of highly monitored areas.
+    image: placeholder
     link: /docs/
-  - title: Feature
+
+  - title: Feature 2
     description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+    image: placeholder
     link: /docs/
-  - title: Feature
+
+  - title: Feature 3
     description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+    image: placeholder
     link: /docs/
+
+secondary:
+  - title: Project using HySDS
+    image: projects-using-hysds
+    link: /docs/projects-using/
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+
+  - title: For the Community, by the Community
+    image:
+    link: /community/support/
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+
+  - title: Frequently Asked Questions
+    items:
+      - question: What is a science data system?
+        answer: Science data systems ingest raw scientific data as input and process it into more useful information (climate models, CO2 levels, water levels, etc).
+
+      - question: Who is HySDS for?
+        answer: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+
+      - question: What kind of data does it process?
+        answer: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+
+      - question: Where do you get the raw data before it's processed?
+        answer: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+
+      - question: How much is running HySDS on Amazon going to cost me?
+        answer: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+
+      - question: How much time will it take for me to learn how to use this?
+        answer: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+
+      - question: How do I interpret the interferograms that HySDS produces?
+        answer: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+
+      - question: How do I write some code that HySDS can utilize?
+        answer: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.

@@ -1,7 +1,7 @@
-- title: Features
+- title: Docs
   items:
-    - title: Cool stuff
-      to: '#'
+    - title: Installation
+      to: '/docs/getting-started/'
     - title: Random feature
       to: '#'
     - title: Team feature
@@ -13,7 +13,7 @@
     - title: Last time
       to: '#'
 
-- title: Resources
+- title: Community
   items:
     - title: Resource
       to: '#'
@@ -24,7 +24,7 @@
     - title: Final resource
       to: '#'
 
-- title: About
+- title: Support
   items:
     - title: Team
       to: '#'

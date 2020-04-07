@@ -16,13 +16,13 @@ export default ({ data }) => (
     <Intro data={data.hysds} />
     <Featured data={marketing.featured} />
     <Primary data={marketing.primary} />
-    <Secondary />
+    <Secondary data={marketing.secondary} />
   </Layout>
 )
 
 export const query = graphql`
   {
-    hysds: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "//docs/hysds//" } }) {
+    hysds: allMarkdownRemark(filter: { frontmatter: { id: { eq: "hysds-overview" } } }) {
       edges {
         node {
           frontmatter {

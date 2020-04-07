@@ -7,7 +7,7 @@ const Primary = ({ data }) => (
   <section id="primary">
     {data.map((content, i) => (
       <Link to={content.link}>
-        <section className="card mb-2">
+        <section className="mb-2">
           <div className="row no-gutters">
             {i % 2 === 0 && (
               <div className="col-sm-6">
@@ -16,7 +16,7 @@ const Primary = ({ data }) => (
             )}
             <div className="col-sm-6">
               <div className="card-body">
-                <h5 className="card-title">{content.title}</h5>
+                <h3 className="card-title">{content.title}</h3>
                 <p className="card-text">{content.description}</p>
               </div>
             </div>

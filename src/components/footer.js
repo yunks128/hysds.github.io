@@ -10,7 +10,7 @@ export default () => (
       <div className="col-12 col-md">
         <img className="mb-2" src={logo} alt="" height="50" />
         <small className="d-block mb-3 text-muted">
-          &copy; HySDS
+          &copy; HySDS<span> </span>
           {new Date().getFullYear()}
         </small>
       </div>

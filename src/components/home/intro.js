@@ -3,12 +3,12 @@ import { Link } from 'gatsby'
 
 const Intro = ({ data }) => (
   <section id="intro" className="text-center">
-    <h5>
+    {/* <h5>
       <Link>
         <span className="badge badge-pill badge-success">New</span>
         <span> Introducing HySDS</span>
       </Link>
-    </h5>
+    </h5> */}
     <div className="jumbotron">
       <h2 className="display-4">Hybrid Cloud Science Data System</h2>
       <p className="lead">{data.edges[0].node.excerpt}</p>

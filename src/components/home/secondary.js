@@ -32,7 +32,7 @@ const Secondary = ({ data: [project, community, faqs] }) => (
           <div className="row">
             {project.items.map(logo => (
               <a className="col-md col-4" href={logo.link}>
-                <div className="m-md-2">
+                <div className="m-2">
                   <Image name={logo.image} />
                 </div>
               </a>

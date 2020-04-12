@@ -4,13 +4,15 @@ import { css, cx } from 'emotion'
 
 import Layout from '../components/layout'
 
-const article = css``
+const article = css`
+  margin-top: 3rem;
+`
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <article className="container">
+      <article className={cx('container', article)}>
         <h2>{post.frontmatter.title}</h2>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>

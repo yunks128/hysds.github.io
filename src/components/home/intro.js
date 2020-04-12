@@ -2,7 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { css, jsx } from '@emotion/core'
 
+import satellite from '../../images/satellite.jpg'
+
 import Image from '../image'
+import Banner from '../banner'
 
 const introduction = css`
   text-align: center;
@@ -10,7 +13,7 @@ const introduction = css`
   padding-bottom: 1.5rem;
 
   h3 {
-    // font-size: 1.3rem;
+    font-size: 1.3rem;
   }
 
   a {
@@ -31,10 +34,17 @@ const introduction = css`
     }
   }
 
-  .jumbotron,
   .jumbotron-fluid {
-    margin: 0;
     background-color: transparent;
+    margin: 0;
+
+    // banner here
+    // background-image: url(${satellite});
+    // background-size: cover;
+    // color: white;
+    // .container {
+    //   background-color: rgba(0, 0, 0, 0.8);
+    // }
   }
 `
 
@@ -46,8 +56,8 @@ const image = css`
 const Intro = ({ data: [intro, featured] }) => (
   <section css={introduction}>
     <section className="jumbotron jumbotron-fluid">
-      <h2>Our website is under construction</h2>
       <div className="container">
+        <h2>**Our website is under construction**</h2>
         <h1 className="display-4">{intro.metadata.siteMetadata.title}</h1>
         <p className="lead">{intro.hysds.edges[0].node.excerpt}</p>
         <hr />

@@ -8,7 +8,7 @@ import headerNav from '../../content/header-nav.yaml'
 
 const header = css`
   border-bottom: 0.5px solid grey;
-  margin-bottom: 3rem;
+  // margin-bottom: 3rem;
 
   .navbar {
     padding: 0;
@@ -61,7 +61,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-md">
           <Link to="/">HySDS</Link>
           <div onClick={() => setActive(!active)} className="btn mobile-only">
-            <span>Menu</span>
+            <span>Menu &darr;</span>
           </div>
           <div className="collapse navbar-collapse">
             <ul className="nav ml-auto">

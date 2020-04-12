@@ -53,7 +53,7 @@ secondary:
         link: https://aria.jpl.nasa.gov/
         external: true
       - image: eos-logo
-        link: https://eos.jpl.nasa.gov/
+        link: https://www.earthobservatory.sg/
         external: true
       - image: nisar-logo
         link: https://nisar.jpl.nasa.gov/

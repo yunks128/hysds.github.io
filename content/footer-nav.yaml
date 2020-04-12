@@ -1,7 +1,7 @@
 - title: Documentation
   items:
     - title: About HySDS
-      to: /docs/why-hysds/
+      to: /docs/about-hysds/
     - title: Getting Started
       to: /docs/getting-started/
     - title: FAQ

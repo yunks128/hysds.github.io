@@ -2,20 +2,32 @@ banner:
   image: satellite
 
 primary:
-  - title: Faceted Search
+  - title: 'Project Highlight #1'
     image: tosca
-    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a
     link: /docs/tosca/
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a
+    highlights:
+      - Lorem ipsum dolor sit amet consectetur
+      - Lorem ipsum dolor sit amet consectetur
+      - Lorem ipsum dolor sit amet consectetur
 
-  - title: Job Metrics
+  - title: 'Project Highlight #2'
     image: metrics
-    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
     link: /docs/metrics/
-
-  - title: How HySDS Works
-    image: ridgecrest-quake-aria
     description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+    highlights:
+      - Lorem ipsum dolor sit amet consectetur
+      - Lorem ipsum dolor sit amet consectetur
+      - Lorem ipsum dolor sit amet consectetur
+
+  - title: 'Project Highlight #3'
+    image: ridgecrest-quake-aria
     link: /docs/how-hysds-works/
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+    highlights:
+      - Lorem ipsum dolor sit amet consectetur
+      - Lorem ipsum dolor sit amet consectetur
+      - Lorem ipsum dolor sit amet consectetur
 
 featured:
   - title: Faceted Search
@@ -35,31 +47,31 @@ featured:
 
 secondary:
   - title: Projects using HySDS
-    description: lorem skdjasldjas
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
     items:
       - image: aria-logo
         link: https://aria.jpl.nasa.gov/
         external: true
       - image: eos-logo
-        link: https://smap.jpl.nasa.gov/
-        external: true
-      - image: nisar-logo
-        link: https://swot.jpl.nasa.gov/
-        external: true
-      - image: oco2-logo
-        link: https://nisar.jpl.nasa.gov/
-        external: true
-      - image: smap-logo
         link: https://eos.jpl.nasa.gov/
         external: true
-      - image: swot-logo
+      - image: nisar-logo
+        link: https://nisar.jpl.nasa.gov/
+        external: true
+      - image: oco2-logo
         link: https://oco2.jpl.nasa.gov/
+        external: true
+      - image: smap-logo
+        link: https://smap.jpl.nasa.gov/
+        external: true
+      - image: swot-logo
+        link: https://swot.jpl.nasa.gov/
         external: true
 
   - title: For the Community, by the Community
     image:
     link: /community/support/
-    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum ab unde voluptatibus nesciunt sapiente et, optio earum nihil cum dolor necessitatibus veritatis expedita quia at minima. Quia similique dignissimos a.
+    description: HySDS was created by JPL and many amazing contributors. It's open-source and <free of charge>.
 
   - title: Frequently Asked Questions
     items:

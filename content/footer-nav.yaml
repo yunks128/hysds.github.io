@@ -1,7 +1,7 @@
 - title: Documentation
   items:
     - title: About HySDS
-      to: /docs/about-hysds/
+      to: /docs/why-hysds/
     - title: Getting Started
       to: /docs/getting-started/
     - title: FAQ
@@ -13,11 +13,7 @@
 
 - title: Community
   items:
-    - title: Resource
-      to: /
-    - title: Resource name
-      to: /
-    - title: Community Resources
+    - title: Resources
       to: /community/support/
     - title: Code of Conduct
       to: /community/code-of-conduct/

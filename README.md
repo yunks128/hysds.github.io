@@ -5,8 +5,8 @@
 ### Install dependencies and start the development server
 
 ```
-git clone https://github.com/hysds-web/hysds-web.github.io.git
-cd hysds-web.github.io
+git clone https://github.com/hysds/hysds.github.io.git
+cd hysds.github.io
 yarn
 yarn start
 ```

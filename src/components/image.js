@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-export default ({ name }) => (
+const Image = ({ name }) => (
   <StaticQuery
     query={graphql`
       {
@@ -22,7 +22,9 @@ export default ({ name }) => (
     `}
     render={data => {
       const image = data.images.edges.find(i => i.node.base.includes(name))
-      return image ? <Img alt="" fluid={image.node.childImageSharp.fluid} /> : null
+      return image ? <Img alt={name} fluid={image.node.childImageSharp.fluid} /> : null
     }}
   />
 )
+
+export default Image

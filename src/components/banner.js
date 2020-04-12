@@ -1,8 +1,12 @@
 import React from 'react'
+import { Link } from 'gatsby'
+
 import Image from './image.js'
 
-export default () => (
-  <div class="satellite-banner">
-    <Image name="satellite" className="" alt="" />
-  </div>
+const Banner = () => (
+  <section>
+    <Image name="satellite" />
+  </section>
 )
+
+export default Banner

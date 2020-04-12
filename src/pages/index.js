@@ -4,22 +4,23 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Intro from '../components/home/intro'
-import Featured from '../components/home/featured'
 import Primary from '../components/home/primary'
 import Secondary from '../components/home/secondary'
 import Banner from '../components/banner'
-import marketing from '../../content/home/marketing/marketing.yaml'
 
-export default ({ data }) => (
+import marketing from '../../content/home/marketing.yaml'
+
+const Index = ({ data }) => (
   <Layout>
-    <Banner />
     <SEO />
-    <Intro data={data.hysds} />
-    <Featured data={marketing.featured} />
+    {/* <Banner /> */}
+    <Intro data={[data, marketing.featured]} />
     <Primary data={marketing.primary} />
     <Secondary data={marketing.secondary} />
   </Layout>
 )
+
+export default Index
 
 export const query = graphql`
   {
@@ -29,8 +30,24 @@ export const query = graphql`
           frontmatter {
             title
           }
-          excerpt(pruneLength: 495)
+          excerpt(pruneLength: 239)
         }
+      }
+    }
+    about: allMarkdownRemark(filter: { frontmatter: { id: { eq: "about-hysds" } } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+          excerpt(pruneLength: 300)
+        }
+      }
+    }
+    metadata: site {
+      siteMetadata {
+        title
+        description
       }
     }
   }

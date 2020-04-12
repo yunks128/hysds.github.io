@@ -1,42 +1,100 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
+import { css, jsx } from '@emotion/core'
 
-export default () => (
-  <header>
-    <nav class="navbar">
-      <Link to="/">HySDS</Link>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <Link to="/docs/getting-started/">Docs</Link>
-        </li>
-        <li class="nav-item">
-          <Link to="/tutorial/tutorial/">Tutorial</Link>
-        </li>
-        <li class="nav-item">
-          <Link to="/community/support/">Community</Link>
-        </li>
-        <li class="nav-item">
-          <a href="https://github.com/hysds-web/hysds-web.github.io">
-            GitHub<span> </span>
-            <svg x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="css-83uoqv">
-              <path
-                fill="currentColor"
-                d="
-      M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,
-      0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z
-    "
-              />
-              <polygon
-                fill="currentColor"
-                points="
-      45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,
-      14.9 62.8,22.9 71.5,22.9
-      "
-              />
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-)
+import ExternalLink from './external-link'
+
+import headerNav from '../../content/header-nav.yaml'
+
+const header = css`
+  border-bottom: 0.5px solid grey;
+  // margin-bottom: 3rem;
+
+  .navbar {
+    padding: 0;
+    margin: 1rem 0;
+    a {
+      color: black;
+    }
+    > a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .nav {
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav-item {
+    padding: 0;
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+
+  @media screen and (min-width: 767px) {
+    .mobile-only {
+      display: none;
+    }
+  }
+
+  .mobile-only {
+    ul {
+      padding-top: 1.5rem;
+      border-top: 0.5px solid grey;
+      list-style: none;
+      text-align: center;
+    }
+    a {
+      color: black;
+    }
+  }
+`
+
+const Header = () => {
+  const [active, setActive] = useState(false)
+  return (
+    <header css={header}>
+      <div className="container">
+        <nav className="navbar navbar-expand-md">
+          <Link to="/">HySDS</Link>
+          <div onClick={() => setActive(!active)} className="btn mobile-only">
+            <span>Menu &darr;</span>
+          </div>
+          <div className="collapse navbar-collapse">
+            <ul className="nav ml-auto">
+              {headerNav.items.map(link => (
+                <li className="nav-item">
+                  {link.external ? (
+                    <ExternalLink to={link.to} title={link.title} />
+                  ) : (
+                    <Link to={link.to}>{link.title}</Link>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </nav>
+        <nav className="mobile-only">
+          {active ? (
+            <ul className="row">
+              {headerNav.items.map(link => (
+                <li className="col-12">
+                  {link.external ? (
+                    <ExternalLink to={link.to} title={link.title} />
+                  ) : (
+                    <Link to={link.to}>{link.title}</Link>
+                  )}
+                </li>
+              ))}
+            </ul>
+          ) : null}
+        </nav>
+      </div>
+    </header>
+  )
+}
+
+export default Header

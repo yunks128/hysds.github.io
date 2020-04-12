@@ -1,8 +1,10 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-export default ({ data }) => (
+const PageNotFound = ({ data }) => (
   <Layout>
-    <h2>404 Page not found...</h2>
+    <h2>Page not found</h2>
+    <p>We couldn't find what you were looking for.</p>
   </Layout>
 )
+export default PageNotFound

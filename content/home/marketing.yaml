@@ -7,27 +7,27 @@ primary:
     link: /docs/tosca/
     description: Tosca is the GUI for HySDS, designed to manage and visualize large-scale distributed data workflows. It simplifies workflow orchestration, job monitoring, and data analysis across various domains like Earth science.
     highlights:
-      - Easy Workflow Management: Intuitive drag-and-drop interface for creating and managing workflows.
-      - Real-Time Job Monitoring: Track job status, view logs, and troubleshoot in real-time.
-      - Data Visualization: Tools for visualizing and analyzing large datasets efficiently.
+      - "Easy Workflow Management: Intuitive drag-and-drop interface for creating and managing workflows."
+      - "Real-Time Job Monitoring: Track job status, view logs, and troubleshoot in real-time."
+      - "Data Visualization: Tools for visualizing and analyzing large datasets efficiently."
 
   - title: 'Metrics'
     image: metrics
     link: /docs/metrics/
     description: Metrics in HySDS provide real-time monitoring of job and worker performance, capturing key runtime data for system insights. It uses Elasticsearch to track and analyze system efficiency, data production, and resource usage.
     highlights:
-      - Real-Time Performance Analytics: Captures key metrics to analyze worker, computing, and storage performance.
-      - Faceted Search: Enables search and visualization of runtime data through Elasticsearch and Kibana.
-      - System Awareness: Provides insights into problematic areas and system throughput for better performance management.
+      - "Real-Time Performance Analytics: Captures key metrics to analyze worker, computing, and storage performance."
+      - "Faceted Search: Enables search and visualization of runtime data through Elasticsearch and Kibana."
+      - "System Awareness: Provides insights into problematic areas and system throughput for better performance management."
 
   - title: 'A Real World Example'
     image: ridgecrest-quake-aria
     link: /docs/how-hysds-works/
     description: In July 2019, after the Ridgecrest, California earthquakes, NASA’s ARIA team used HySDS to process satellite RADAR data and create maps showing soil changes. The maps helped scientists assess damage and track fault lines, supporting disaster response and recovery efforts. HySDS offers an efficient, open-source solution for managing large-scale data for missions like ARIA, NISAR, and OCO-2.
     highlights:
-      - Disaster Response: HySDS processed RADAR data to create maps for earthquake damage assessment.
-      - Efficient Data Processing: Provides economical, open-source tools for satellite data analysis.
-      - Mission Support: Used in NASA's ARIA, NISAR, and OCO-2 missions for large-scale data management.
+      - "Disaster Response: HySDS processed RADAR data to create maps for earthquake damage assessment."
+      - "Efficient Data Processing: Provides economical, open-source tools for satellite data analysis."
+      - "Mission Support: Used in NASA's ARIA, NISAR, and OCO-2 missions for large-scale data management."
 
 featured:
   - title: Faceted Search

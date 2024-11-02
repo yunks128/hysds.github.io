@@ -82,29 +82,33 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Guides',
+            label: 'Docs',
+            href: '/docs/'
           },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'apiSidebar',
             position: 'left',
-            label: 'Contribute',
+            label: 'API',
+            href: '/docs/api/',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'showcaseSidebar',
+            position: 'left',
+            label: 'Showcase',
+            href: '/docs/showcase/',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'communitySidebar',
             position: 'left',
-            label: 'Join',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'About',
-          },
-          //{to: '/blog', label: 'Blog', position: 'left'},
+            label: 'Community',
+            href: '/docs/community/',
+          },        
           {
             href: 'https://github.com/hysds/hysds',
             label: 'GitHub',
@@ -119,21 +123,17 @@ const config = {
             title: 'Resources',
             items: [
               {
-                label: 'Guides',
-                to: '/docs/guides/',
+                label: 'Docs',
+                to: '/docs/',
               },
               {
-                label: 'Contribute',
+                label: 'API',
                 to: '/docs/contribute/',
               },
               {
-                label: 'Join',
-                to: '/docs/join/',
+                label: 'Showcase',
+                to: '/docs/showcase',
               },
-              {
-                label: 'About',
-                to: '/docs/about',
-              }
             ],
           },
           {
@@ -156,10 +156,10 @@ const config = {
           {
             title: 'More',
             items: [
-              //{
-              //  label: 'Blog',
-              //  to: '/blog',
-              //},
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/hysds/hysds',

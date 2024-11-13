@@ -34,6 +34,12 @@ const config = {
     locales: ['en'],
   },
 
+  // Add markdown and themes configuration
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+  
   presets: [
     [
       'classic',
@@ -128,7 +134,7 @@ const config = {
               },
               {
                 label: 'API',
-                to: '/docs/contribute/',
+                to: '/docs/api/',
               },
               {
                 label: 'Showcase',

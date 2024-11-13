@@ -1,3 +1,7 @@
+---
+sidebar_class_name: hidden
+---
+
 # API
 
 HySDS (Hybrid Cloud Science Data System) is an open source science data processing system used across many large-scale Earth Science missions, data production, and analysis systems. This documentation covers the key APIs and components of HySDS.

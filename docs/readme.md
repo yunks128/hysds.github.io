@@ -2,11 +2,9 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# What is HySDS?
 
 Welcome to the Hybrid-Cloud Science Data Processing System (HySDS) documentation! HySDS is an open source science data processing system used across many large-scale Earth Science missions, data production, and analysis systems.
-
-## What is HySDS?
 
 HySDS is a powerful, scalable system designed to handle the growing demands of Earth science data processing. It provides:
 

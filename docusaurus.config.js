@@ -8,6 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+  deploymentBranch: 'develop',
   title: 'HySDS',
   tagline: 'Process Anywhere, Scale Everywhere: The Science Data Solution',
   favicon: 'img/favicon.ico',

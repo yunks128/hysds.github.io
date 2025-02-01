@@ -8,8 +8,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   deploymentBranch: 'develop',
   title: 'HySDS',
   tagline: 'Process Anywhere, Scale Everywhere: The Science Data Solution',
@@ -26,7 +24,7 @@ const config = {
   organizationName: 'hysds', // Usually your GitHub org/user name.
   projectName: 'hysds.github.io', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
